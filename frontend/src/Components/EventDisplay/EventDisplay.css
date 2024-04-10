@@ -1,0 +1,126 @@
+.eventdisplay{
+    display: flex;
+    margin: 0px 170px;
+
+}
+
+.eventdisplay-left{
+    display: flex;
+    gap: 17px;
+}
+
+.eventdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.eventdisplay-img-list img{
+    height: 100px;
+}
+
+.eventdisplay-main-img{
+    width: 450px;
+    height:450px;
+}
+.eventdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.eventdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 35px;
+    font-weight: 800;
+}
+.eventdisplay-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    color: #1c1c1c;
+    gap: 5px;
+    font-size: 14px;
+}
+.eventdisplay-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.eventdisplay-right-discription{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+} 
+.eventdisplay-right-prices-old{
+    color: #818181;
+
+}
+
+.eventdisplay-right-prices-new{
+    color: #1c1c1c;
+
+}
+
+.eventdisplay-right-size h1{
+    margin-top: 35px;
+    color: #656565;
+    font-size:14px ;
+    font-weight: 600;
+}
+.eventdisplay-right-sizes{
+    display: flex;
+    margin: 15px 0px;
+    gap: 20px;
+
+}
+
+.eventdisplay-right-sizes div{
+    padding: 12px 18px;
+    background: #fbfbfb  ;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.eventdisplay-right-sizes div:hover{
+
+    background: #ff523b  ;
+    
+}
+
+.eventdisplay-right button{
+    padding: 16px 35px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.eventdisplay-right btn{
+    
+    margin-left: 25px;
+    padding: 16px 35px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.eventdisplay-right-category{
+    margin-top: 10px;
+}
+
+.eventdisplay-right-category span{
+    font-weight: 600;
+}

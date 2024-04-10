@@ -1,0 +1,64 @@
+.cartitems{
+    margin: 100px 70px;
+
+}
+
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cartitem-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr ;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cartitem-format{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.carticon-event-icon{
+    height: 65px;
+    width: 72px;
+
+}
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 40px 20px;
+    cursor: pointer;
+}
+.cartitems-quantity{
+    width: 45px;
+    height: 45px;
+    background: white;
+    border: 2px solid #ebebeb;
+}
+.register{
+    padding: 16px 35px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.registericon{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
