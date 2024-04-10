@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo{
+    width:50px;
+    height: 50px;
+    background: black;
+    border-radius: 100%;
+}
+.nav-profile{
+    width:72px;
+}
+
+.navbar h1{
+    display: flex;
+    text-align: left;
+    padding-right:700px ;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar p{
+    display: flex;
+    text-align: right;
+    padding-left:20px ;
+    
+    font-size: 20px;
+    font-weight: 500;
+}
